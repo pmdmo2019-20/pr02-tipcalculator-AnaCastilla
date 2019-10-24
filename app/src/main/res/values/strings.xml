@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Tip Calculator</string>
+    <string name="bill">Bill</string>
+    <string name="eur">€</string>
+    <string name="tip">Tip</string>
+    <string name="perc">%</string>
+    <string name="defaultPercentage">10.00</string>
+    <string name="tipPerc">Tip %</string>
+    <string name="totalText">Total</string>
+    <string name="reset">Reset</string>
+    <string name="defaultDiners">1</string>
+    <string name="diners">Diners</string>
+    <string name="defaultCost">0.00</string>
+    <string name="perDiner">Per diner</string>
+    <string name="rounded">Rounded</string>
 </resources>
