@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="txtTip" type="id">Tip</item>
-    <item name="txtTotal" type="id">Total</item>
-    <item name="txtPerDiner" type="id">Per diner</item>
-    <item name="txtPerDinerRounded" type="id">Rounded</item>
-    <item name="txtBill" type="id">Bill</item>
-    <item name="txtPercentage" type="id">Tip %</item>
-    <item name="txtDiners" type="id">Diners</item>
-    <item name="btnResetTip" type="id">Reset</item>
-    <item name="btnResetDiners" type="id">Reset</item>
+    <item name="txtTip" type="id"></item>
+    <item name="txtTotal" type="id"></item>
+    <item name="txtPerDiner" type="id"></item>
+    <item name="txtPerDinerRounded" type="id"></item>
+    <item name="txtBill" type="id"></item>
+    <item name="txtPercentage" type="id"></item>
+    <item name="txtDiners" type="id"></item>
+    <item name="btnResetTip" type="id"></item>
+    <item name="btnResetDiners" type="id"></item>
 </resources>

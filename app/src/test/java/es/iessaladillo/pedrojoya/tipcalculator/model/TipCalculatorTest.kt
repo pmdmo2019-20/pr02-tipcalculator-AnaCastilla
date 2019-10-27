@@ -17,50 +17,52 @@ class TipCalculatorTest {
     @DisplayName("Should throw IllegalArgumentException when percentage is negative")
     @Test
     fun `should throw IllegalArgumentException when percentage is negative`() {
-        // TODO
+        assertThrows(IllegalArgumentException::class.java) { TipCalculator(1f, -10f, 1) }
     }
 
     @DisplayName("Should throw IllegalArgumentException when diners is not positive")
     @ParameterizedTest
     @ValueSource(ints = [-1, 0])
     fun `should throw IllegalArgumentException when diners is not positive`(diners: Int) {
-        // TODO
+        assertThrows(IllegalArgumentException::class.java) { TipCalculator(1f, diners.toFloat(), 1) }
     }
 
     @DisplayName("Should calculate total properly")
     @Test
     fun `should calculate total properly`() {
-        // TODO
+        assertThrows(IllegalArgumentException::class.java) { TipCalculator(1f, 10f, 1).calculateTotal().equals("1.1f") }
     }
 
     @DisplayName("Should calculate total properly with bill 0")
     @Test
     fun `should calculate total properly with bill 0`() {
-        // TODO
+        assertThrows(IllegalArgumentException::class.java) { TipCalculator(0f, 10f, 1).calculateTotal().equals("0f") }
+
     }
 
     @DisplayName("Should calculate total properly with percentage 0")
     @Test
     fun `should calculate total properly with percentage 0`() {
-        // TODO
+        assertThrows(IllegalArgumentException::class.java) { TipCalculator(1f, 0f, 1).calculateTotal().equals("1f") }
     }
 
     @DisplayName("Should calculate perDiner properly")
     @Test
     fun `should calculate perDiner properly`() {
-        // TODO
+        assertThrows(IllegalArgumentException::class.java) { TipCalculator(1f, 10f, 1).calculatePerDiner().equals("1.1f") }
     }
 
     @DisplayName("Should calculate perDinerRounded properly")
     @Test
     fun `should calculate perDinerRounded properly`() {
-        // TODO
+        assertThrows(IllegalArgumentException::class.java) { TipCalculator(1f, 10f, 1).calculatePerDinerRounded().equals("1f") }
+
     }
 
     @DisplayName("Should calculate perDinerRounded properly when perDinerRounded has 00 as cents")
     @Test
     fun `should calculate perDinerRounded properly when perDinerRounded has 00 as cents`() {
-        // TODO
+        assertThrows(IllegalArgumentException::class.java) { TipCalculator(1f, 10f, 1).calculatePerDinerRounded().equals("1f") }
     }
 
 }
